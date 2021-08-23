@@ -1,0 +1,128 @@
+/*team NHWH 5august*/
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url('webdevbanner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 10%;
+  padding-top: 70%;
+  font-size: 90%;
+}
+
+.nav ul li {
+  list-style-type: none;
+  margin:2%;
+  padding: 3%;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 117%;
+}
+
+.logo {
+  color: rgb(94, 189, 248);
+  font-size: 300%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+}
+
+.btn {
+  border: 2px rgb(252, 252, 252) solid;
+  border-radius: 5px;
+  font-size: 130%;
+  float: right;
+  background-color: rgb(71, 151, 255);
+  margin-right: 2%;
+  padding: 0.5%;
+}
+
+.btn a {
+  color: azure;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(81, 168, 250);
+  color: aliceblue;
+  padding: 1%;
+}
+
+button {
+
+  border: 2px solid rgb(255, 251, 251);
+  border-radius: 5px;
+  padding: 0.5%;
+}
+.contact {
+  text-decoration: none;
+}
+
+
+
+@media (min-width : 400px) and (max-width : 700px) {
+  .banner {
+    color: aliceblue;
+    text-align: right;
+    margin-top: 10%;
+    padding-right: 3%;
+    padding-top: 36%;
+}
+}
+/*media queries for tablet starts here*/
+@media (min-width : 701px) and (max-width : 900px){
+  .nav ul li {
+    list-style-type: none;
+    margin:1%;
+    padding: 2%;
+    float: right;
+  
+  }
+  .banner {
+    color: aliceblue;
+    text-align: right;
+    margin-top: 10%;
+    padding-right: 3%;
+    padding-top: 21%;
+}
+  
+}
+/*media queries for laptop starts here*/
+@media (min-width : 901px) {
+  .nav ul li {
+    list-style-type: none;
+    margin:1%;
+    padding: 2%;
+    float: right;
+  
+  }
+  .banner {
+    color: aliceblue;
+    text-align: right;
+    margin-top: 10%;
+    padding-right: 3%;
+    padding-top: 11%;
+    font-size: 120%;
+}
+  
+}
